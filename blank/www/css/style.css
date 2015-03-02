@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+.row{
+	padding: 5px;
+}
+
+.col{
+	padding: 5px;
+}
+
+ion-content{
+	background-color: #2B2B2B;
+}
+
+#demo, #demo2 , #demo3{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+#demo{
+	background-color: #FFCC66;
+}
+
+#demo2{
+
+}
+
+#demo3{
+	
+}
+
+#card1{
+	
+}
+
+

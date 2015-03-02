@@ -1,0 +1,13 @@
+{
+  "name": "blank",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0-beta.14",
+    "jquery": "~2.1.3",
+    "paper": "~0.9.21",
+    "polymer": "~0.5.5",
+    "core-elements": "polymer/core-elements#~0.5.5",
+    "paper-elements": "polymer/paper-elements#~0.5.5",
+    "animate.css": "~3.2.1"
+  }
+}
