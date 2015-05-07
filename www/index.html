@@ -16,7 +16,6 @@
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/paper/dist/paper-full.js"></script>
     <script src="lib/jquery/dist/jquery.js"></script>
-    <link rel="stylesheet" type="text/css" media="all" href="lib/animate.css">
     <link rel="stylesheet" type="text/css" media="all" href="lib/animations.css">
 
     <!-- cordova script (this will be a 404 during development) -->
@@ -28,46 +27,41 @@
     <script src="js/animate.js"></script>
   </head>
   <body ng-app="starter">
-
     <ion-pane>
-      <ion-header-bar class="bar bar-header bar-dark">
-        <center><h1 class="title">Rock Paper Sissors</h1></center>
-      </ion-header-bar>
       <ion-content>
       <!--APP -->
-      <div class="row">
+        <center><img src="img/Icon.png" id="icon" class="floating"></center>
+        <br></br>
 
-      	<div class="col">
-	      <img src="img/rock1.png" class="pulse" onclick= "doall(1)">
-	    </div>
+        <center>
+        <div class="row" style="center">
+        <div class="col">
+        <button class="button button-balanced" onclick="location.href='home.html'">
+         PLAY
+        </button>
+        </div>
+        </div>
 
-	    <div class="col">
-	      <img src="img/paper.png" class="pulse" onclick= "doall(2)">
-	     </div>
+        <div class="row" style="center">
+        <div class="col">
+        <button class="button button-balanced" onclick="disabled">
+         Multiplayer
+        </button>
+        </div>
+        </div>
 
-	    <div class="col">
-	     <img src="img/scissors.png" class="pulse" onclick= "doall(3)">
-	    </div>
+        <div class="row" style="center">
+        <div class="col"> 
+        <button class="button button-balanced" onclick="disabled">
+         How to Play
+        </button>
+        </div>
+        </div>
+        </center>
 
-	  </div>
-	  <div class="tossing" id="card1">
-	<div class="card">
-	  <div class="item item-text-wrap" id="demo">
-	    <p class="hatching"></p>
-	  </div>
-	</div>
-  </div>
 
-	<div class="card">
-	  <div class="item item-text-wrap" class="hatch" id="demo2">
-	    
-	  </div>
-	</div>	  
-	<div class="card">
-    <div class="item item-text-wrap" id="demo3">
-      
-    </div>
-  </div>
+
+
       </ion-content>
     </ion-pane>
   </body>

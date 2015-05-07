@@ -1,0 +1,82 @@
+/* Empty. Add your own CSS if you like */
+.row{
+	padding: 5px;
+}
+
+.col{
+	padding: 5px;
+}
+
+ion-content{
+	background-color: #58E000;
+}
+
+#demo, #demo2 , #demo3{
+	text-align: center;
+}
+s
+h1{
+	text-align: center;
+}
+
+#demo{
+	
+}
+
+#demo2{
+
+}
+
+#demo3{
+	
+}
+
+#cardsyow{
+	visibility: hidden;
+	
+}
+
+#top{
+	font-family: myFirstFont;
+	font-size: 35px;
+	color: white;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(FunSized1.ttf);
+}
+
+#icon{
+	height: auto;
+	width: auto;
+	max-height: 150px;
+	max-width: 350px;
+}
+
+.button-large{
+	padding-right: 10px;
+	position: center;
+} 
+
+
+
+.blur{
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  -ms-filter: blur(20px);
+  filter: blur(20px);
+}
+
+.card.item item-text-wrap{
+	color: #e67e22;
+}
+
+.button-balanced{
+	/*display: inline-block; */
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-top: 10px;*/
+}

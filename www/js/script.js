@@ -2,20 +2,20 @@ var select = function (call)
 {
 	if (call === 1) 
 	{
-		console.log(call);
-		document.getElementById('demo').innerHTML="You Choose Rock!";
+		//console.log(call);
+		//document.getElementById('demo').innerHTML="You Choose Rock!";
 		var comp = Math.floor((Math.random() * 3) + 1);
 	};
 	if (call === 2) 
 	{
-		console.log(call);
-		document.getElementById('demo').innerHTML="You Choose Paper!";
+		//console.log(call);
+		//document.getElementById('demo').innerHTML="You Choose Paper!";
 		var comp = Math.floor((Math.random() * 3) + 1);
 	};
 	if (call === 3) 
 	{
 		console.log(call);
-		document.getElementById('demo').innerHTML="You Choose Sissors!";
+		//document.getElementById('demo').innerHTML="You Choose Sissors!";
 		var comp = Math.floor((Math.random() * 3) + 1);
 	};
 }
@@ -27,6 +27,8 @@ var doall = function(call)
 	select(call); //User Choice Output
 	computerRun(comp,call);
 }
+
+//document.getElementById("p2").style.visibility = "visible";
 
 
 var computerRun = function (computer,user)
@@ -44,6 +46,8 @@ var computerRun = function (computer,user)
 		} else{
 			document.getElementById('demo3').innerHTML="You Won!";
 		};
+		document.getElementById("cardsyow").style.visibility = 'visible';
+		document.getElementById("blurthis").className = 'blur';
 	};
 	if (computer === 2) 
 	{
@@ -56,6 +60,8 @@ var computerRun = function (computer,user)
 		} else{
 			document.getElementById('demo3').innerHTML="You Won!";
 		};		
+		document.getElementById("cardsyow").style.visibility = 'visible';
+		document.getElementById("blurthis").className = 'blur';
 	};
 	if (computer === 3) 
 	{
@@ -68,6 +74,9 @@ var computerRun = function (computer,user)
 		} else{
 			document.getElementById('demo3').innerHTML="You Won!";
 		};
+		document.getElementById("cardsyow").style.visibility = 'visible';
+		document.getElementById("blurthis").className = 'blur';
 	};
+	document.getElementById("blurthis").style.pointerEvents = 'none';
 }
 
